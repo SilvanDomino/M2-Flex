@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    grid-template-columns: 64px 240px auto;
+    height: 100vh;
+}
+.sidebar{
+    background: #0683EA;
+}
+.navbar{
+    background: #1f97f9;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px;
+}
+.navbar__list{
+    list-style: none;
+    font-size: 1.4rem;
+}
+.navbar__item{
+    padding: 8px;
+}
+.main{
+    background: lightgoldenrodyellow;
+}

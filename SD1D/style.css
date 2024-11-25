@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-columns: 304px auto auto;
+    height: 100vh;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 64px 240px;
+}
+.navbar__links{
+    background-color: #0683ea;
+}
+.navbar__rechts{
+    background-color: #1f97f9;
+}
+.navbar__list{
+    list-style: none;
+}
+.main{
+    background: lightcyan;
+}
+.mededelingen{
+    background: lightyellow;
+}
