@@ -28,9 +28,10 @@ body{
 .navbar ul{
     list-style: none;
 }
-.navbar-button{
+.navbar__item{
     letter-spacing: 1px;
     padding: 10px;
+    display: flex;
 }
 .main{
     background-color: white;

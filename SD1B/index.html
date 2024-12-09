@@ -4,19 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="all.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section class="appbar">Donkerblauw</section>
     <nav class="navbar">
         <h1>Magister<span class="dot">.</span></h1>
-        <ul>
-            <li class="navbar-button">Vandaag</li>
-            <li class="navbar-button">Leerlingen</li>
-            <li class="navbar-button">Personeel</li>
-            <li class="navbar-button">Agenda</li>
+        <ul class="navbar__list">
+            <li class="navbar__item">
+                <i class="fa-solid fa-home navbar-icon"></i>
+                <div class="button-text">Vandaag</div>
+            </li>
+            <li class="navbar__item">
+                <i class="fa-solid fa-baby navbar-icon"></i>
+                <div class="button-text">Leerlingen</div>
+            </li>
+            <li class="navbar__item">
+                <i class="fa-solid fa-users navbar-icon"></i>
+                <div class="button-text">Personeel</div>
+            </li>
+            <li class="navbar__item">
+                <i class="fa-solid fa-calendar-days navbar-icon"></i>
+                <div class="button-text">Agenda</div>
+            </li>
+            <li class="navbar__item">
+                <i class="fa-solid fa-building-circle-check navbar-icon"></i>
+                <div class="button-text">Aanwezigheid</div>
+            </li>
+            <li class="navbar__item">
+                <i class="fa-solid fa-user-clock navbar-icon"></i>
+                <div class="button-text">Keuzewerktijd</div>
+            </li>
+            <li class="navbar__item">
+                <i class="fa-solid fa-list-ol navbar-icon"></i>
+                <div class="button-text">Cijfers</div>
+            </li>
+            <li class="navbar__item">
+                <i class="fa-solid fa-chess navbar-icon"></i>
+                <div class="button-text">ELO</div>
+            </li>
+            <li class="navbar__item">
+                <i class="fa-solid fa-bed navbar-icon"></i>
+                <div class="button-text">Activiteiten</div>
+            </li>
         </ul>
     </nav>
-    <main class="main">Wit</main>
+    <main class="main">Wit
+        <i class="fa-solid fa-heart-pulse"></i>
+    </main>
 </body>
 </html>

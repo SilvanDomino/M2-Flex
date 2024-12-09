@@ -17,9 +17,14 @@ body{
 }
 .navbar__rechts{
     background-color: #1f97f9;
+    color: white;
 }
 .navbar__list{
     list-style: none;
+}
+.navbar__item{
+    display: grid;
+    grid-template-columns: 30px auto;
 }
 .main{
     background: lightcyan;
